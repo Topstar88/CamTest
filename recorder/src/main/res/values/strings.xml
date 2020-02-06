@@ -1,0 +1,12 @@
+<resources>
+  <string name="app_name">CameraRecorder</string>
+  <string name="app_record">Record</string>
+  <string name="str_start">Start</string>
+    <string name="str_stop">Stop</string>
+  <string name="str_choose_filter">Choose a filter</string>
+    <string name="str_flash">FLASH</string>
+  <string name="str_filter">FILTER</string>
+  <string name="str_new_recording">New Recording Started...</string>
+  <string name="str_end_recording">Saving...</string>
+  <string name="str_saved">Video Saved</string>
+</resources>

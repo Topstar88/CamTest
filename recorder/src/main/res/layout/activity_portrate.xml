@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:weightSum="1">
+        <com.topstar.recorder.widget.PortraitFrameLayout
+            android:id="@+id/wrap_view"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"/>
+        <com.topstar.recorder.widget.PortraitFrameLayout
+            android:id="@+id/wrap_view1"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="40dp"
+        android:text="@string/app_record"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="right"
+        android:layout_alignParentRight="true">
+        <Button
+            android:id="@+id/btn_flash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_flash"/>
+        <Button
+            android:id="@+id/btn_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_filter"/>
+    </LinearLayout>
+</RelativeLayout>
